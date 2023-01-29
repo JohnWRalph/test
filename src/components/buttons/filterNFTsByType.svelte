@@ -66,7 +66,7 @@
             }}
         />
     </div>
-    <div>
+    <!-- <div>
         Filter Loopring NFTs:<input
             type="checkbox"
             id="checkboxdisplayLoopringNFTs"
@@ -89,7 +89,7 @@
                 }
             }}
         />
-    </div>
+    </div> -->
     <div>
         Filter Solana NFTs:<input
             type="checkbox"
