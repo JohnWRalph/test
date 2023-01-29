@@ -7,20 +7,20 @@ import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfil
 export default defineConfig({
   plugins: [svelte()],
   define: {global: 'window','process.env.ANCHOR_BROWSER': true}, 
-  optimizeDeps: {
-    esbuildOptions: {
-        // Node.js global to browser globalThis
-        define: {
-            global: 'globalThis'
-        },
-        // Enable esbuild polyfill plugins
-        plugins: [
-            NodeGlobalsPolyfillPlugin({
-                buffer: true
-            })
-        ]
-    }
-}
+  // optimizeDeps: {
+  //   esbuildOptions: {
+  //       // Node.js global to browser globalThis
+  //       define: {
+  //           global: 'globalThis'
+  //       },
+  //       // Enable esbuild polyfill plugins
+  //       plugins: [
+  //           NodeGlobalsPolyfillPlugin({
+  //               buffer: true
+  //           })
+  //       ]
+    // }
+// }
 })
 
 
