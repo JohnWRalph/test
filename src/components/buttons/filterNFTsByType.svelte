@@ -5,7 +5,7 @@
     import fetchEthereumNfts from "../../utils/fetchEthereumNfts";
     import fetchImxNfts from "../../utils/fectchImxNfts";
     import fetchSolanaNfts from "../../utils/fetchSolanaNfts";
-    import fetchLoopringNfts from "../../utils/fetchLoopringNfts";
+    // import fetchLoopringNfts from "../../utils/fetchLoopringNfts";
     import Nft from "../NFT.svelte";
 </script>
 
@@ -66,7 +66,7 @@
             }}
         />
     </div>
-    <div>
+    <!-- <div>
         Filter Loopring NFTs:<input
             type="checkbox"
             id="checkboxdisplayLoopringNFTs"
@@ -89,7 +89,7 @@
                 }
             }}
         />
-    </div>
+    </div> -->
     <div>
         Filter Solana NFTs:<input
             type="checkbox"
