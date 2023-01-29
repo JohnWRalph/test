@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@coinbase/wallet-sdk": "^3.6.3",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@gamestopnft/detect-gamestop-provider": "^1.0.0",
     "@imtbl/core-sdk": "^1.0.0",
     "@loopring-web/loopring-sdk": "^3.0.24-redPacket",
