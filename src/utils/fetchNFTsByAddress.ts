@@ -1,7 +1,7 @@
 import type { NFT } from "../domain/nft";
 import fetchImxNfts from "./fectchImxNfts";
 import fetchEthereumNfts from "./fetchEthereumNfts";
-import fetchLoopringNfts from "./fetchLoopringNfts";
+// import fetchLoopringNfts from "./fetchLoopringNfts";
 
 async function fetchNFTsByAddress(ethereumAddress: string): Promise<NFT[]> {
   const imxNfts: NFT[] = await fetchImxNfts(ethereumAddress);
